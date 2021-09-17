@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Intro to ODE Modeling</title>
+    <meta name="description" content="Cool Project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <section id="intro">
+      <p class="intro__overline"></p>
+      <h1 class="intro__hed">
+        Introduction to ODE and its network architecture
+      </h1>
+      <p class="intro__dek">
+        ODE or System of ODEs is a simple predictive model with well-known
+        solvers that survived the test of time. It does not suffer from problems
+        like well-posedness and is easy to craft and put as explicit formulas,
+        compare to models like PDEs. Furthermore, there is a simple graphical
+        network that can provide a deep insight into the model. One can
+        architect the network to get a model, similar to the relationship
+        between NN and its underlying archtecture. Recently, people discovered
+        that its parameters can be learned from large data.
+      </p>
+    </section>
+    <section id="scroll">
+      <article>
+        <div class="step" id="step0" data-step="1">
+          <p>STEP 1</p>
+        </div>
+        <div class="step" id="step1" data-step="2">
+          <p>STEP 2</p>
+        </div>
+        <div class="step" id="step2" data-step="3">
+          <p>STEP 3</p>
+        </div>
+        <div class="step" id="step3" data-step="4">
+          <p>STEP 4</p>
+        </div>
+      </article>
+      <figure>
+        <p>0</p>
+      </figure>
+    </section>
+    <section id="outro"></section>
+    <script src="https://unpkg.com/intersection-observer"></script>
+    <!--Main JS File-->
+    <script src="../lib/d3.v7.min.js"></script>
+    <script src="../lib/scrollama.min.js"></script>
+    <script src="../js/index.js" type="module"></script>
+  </body>
+</html>
